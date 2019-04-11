@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="2sp"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#e5dcdcdc">
+
+        <ImageView
+            android:id="@+id/celula_favoritos_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sample"/>
+
+        <TextView
+            android:id="@+id/celula_favoritos_tv_nome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hulk"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
